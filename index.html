@@ -12,7 +12,7 @@
 				<div id="profile-summary">
 					<div class="content">
 						<img class='avatar' src='img/alagoon.jpg' />
-						<p>Your Name Here</p>
+						<p class="myname">Grady Truitt</p>
 					</div>
 				</div>
 				<div id="tweet-content">
@@ -25,9 +25,10 @@
 					<!-- HINT: Use CSS -->
 					<div id="tweet-controls">
 
-						<!-- STEP 3: As the user types the character count should decrease. Once it hits 10 character or less the count should turn red -->
+						<!-- STEP 3: As the user types the character count should decrease. 
+							//Once it hits 10 character or less the count should turn red -->
 						<!-- HINT: jQuery keypress events (keypress, keydown, keyup, etc) -->
-						<div id="char-count">140</div>
+						<div id="char-count"></div>
 
 						<!-- STEP 4: If the user puts in more than 140 characters, the tweet button should be disabled (and re-enabled when there are <= 140 chars) -->
 						<!-- HINT: javascript length method -->
@@ -178,5 +179,11 @@
 				</div><!-- #stream -->
 			</div><!-- #main -->
 		</div><!-- #page-container -->
+		<script
+		src="https://code.jquery.com/jquery-3.2.1.js"
+		integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+		crossorigin="anonymous"></script>
+		<script src="./js/animation.js"></script>
+		<script src="./js/jquery-2.0.3.min.js"></script>
 	</body>
 </html>
